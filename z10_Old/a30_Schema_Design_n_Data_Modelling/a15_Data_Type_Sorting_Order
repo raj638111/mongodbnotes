@@ -1,0 +1,19 @@
+
+  + From highest to lowest **35
+  
+    - MaxKey
+    - Regex
+    - Timestamp
+    - Date
+    - Boolean
+    - ObjectId
+    - BinData
+    - Array
+    - Object
+    - Symbol, string
+    - Numbers (ints, longs, doubles)
+    - Null
+    - MinKey(internal types)
+  
+  + Array type sorting order
+    - more here... #35  

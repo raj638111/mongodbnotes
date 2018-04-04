@@ -1,0 +1,27 @@
+
+-- Features: Vis-a-vis other NoSQL database(like HBase & Cassandra) #18
+
+  + Flexibility
+  + Flexible query model
+  + Native Aggregation
+  + Schemaless model
+
+-- Key characteristic #18
+
+  + General purpose database
+  + Flexible schema design
+    - Attributes that can be modified on fly
+  + High availability
+  + Secondary indexing
+  + Scalability
+    - Grows horizontally
+    - Sharding
+  + Aggregation framework
+    - Can perform ETL before data leaves MongoDB
+  + Native replication
+  + JSON object 
+    - for storing documents
+  + MapReduce
+    - Not as advanced. but still useful
+  + Geospatial information 
+

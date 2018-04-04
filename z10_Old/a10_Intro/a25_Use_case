@@ -1,0 +1,8 @@
+
+  + Good #20
+    - Ingesting data from heterogeneous sources because of schema flexibility
+    - Geo spatial data
+  + NOT so good
+    - Transactional use case like for banks
+  
+  

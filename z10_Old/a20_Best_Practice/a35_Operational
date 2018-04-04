@@ -1,0 +1,11 @@
+
+  + Turn Journaling on  #23
+  + Working set in memory
+    - When using MMAPv1 
+  + Mind location of data files
+  + Version system
+    - Odd - Development version
+    - Event - Stable version
+  + Use Mongo MMS
+    - To monitor Graphically    
+  + n more...

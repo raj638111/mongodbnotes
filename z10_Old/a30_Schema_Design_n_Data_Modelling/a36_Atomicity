@@ -1,0 +1,6 @@
+
+  + Some operation are atomic at document level #38
+    - update()
+    - findandmodify()
+    - remove()
+    

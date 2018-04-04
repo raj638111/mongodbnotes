@@ -1,0 +1,14 @@
+
+
+SQL - MongoDB #16
+
+Database  - Database
+Index     - Index
+Tables    - Collections
+Rows      - Documents
+Columns   - Fields
+Joins     - Embedded and Linked documents
+
+Read more common operation comparison here #16
+
++ Document : Max size is 16 MB #42

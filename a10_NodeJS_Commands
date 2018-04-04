@@ -1,0 +1,6 @@
+
+
+-- Check node version
+
+node -v
+v9.10.1

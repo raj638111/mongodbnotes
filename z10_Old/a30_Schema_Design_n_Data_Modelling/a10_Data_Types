@@ -1,0 +1,23 @@
+
+   - double #33
+  - string
+  - object
+  - array
+  - binData
+  - objectId
+  - bool
+  - date
+  - null
+  - regex
+  - javascript
+  - javascriptWithScope
+  - int
+  - timestamp
+  - long
+  - decimal
+  - minKey
+  - maxKey
+  - undefined
+  - dbPointer
+  - symbol
+  

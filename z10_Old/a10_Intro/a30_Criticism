@@ -1,0 +1,6 @@
+
+
+  + Schema less #22
+  + Lack of ACID
+  + Write & Forget
+    - Although good at write speed, but gives poor behavior in case of failure

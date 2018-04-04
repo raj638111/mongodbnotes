@@ -1,0 +1,9 @@
+
+  + Can be achieved using embedding
+  
+  + Example
+  (Here address is embedded and has 1 - few relationship with Person)
+  { "_id" : ObjectId("590a55863e37d79acac26a43"), "name" : "alex", "address"
+  : [ "N29DD", "SW1E5ND" ] }
+  
+    

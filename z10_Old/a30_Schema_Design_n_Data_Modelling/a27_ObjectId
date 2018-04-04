@@ -1,0 +1,21 @@
+
+  + Every document has a document id ** _id #37
+  + Is the primary key for each document
+  + If omitted, is assigned automatically
+  + Size
+    - 12 byes
+  + Ordering
+    - Will sort by **creation time of each document
+  + Structure (12 Bytes)
+    - 4 byte 
+      . Seconds since epoch
+    - 3 Byte
+      . Machine identifier
+    - 2 Byte
+      . Process Id
+    - 3 Byte
+      . Counter
+  
+  + Note**
+    Is generated on the Client side, be mindful of that** #38          
+    

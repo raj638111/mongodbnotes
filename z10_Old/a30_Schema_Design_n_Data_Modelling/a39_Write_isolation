@@ -1,0 +1,3 @@
+
+  + Exclusive lock is used for the entire collection #39
+  + Do not work for sharded cluster    

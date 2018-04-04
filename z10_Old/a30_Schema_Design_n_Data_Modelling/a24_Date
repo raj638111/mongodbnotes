@@ -1,0 +1,5 @@
+
+  + Stored in milliseconds  #36
+  + 64 bit signed integer
+  + Stored in UTC date time
+  + ** For other time zone, need to be handled in application level
