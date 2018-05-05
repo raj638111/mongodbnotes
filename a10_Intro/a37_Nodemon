@@ -1,0 +1,14 @@
+
+
+-- Nodemon
+
+  # Helps to restart mocha completely everytime a file changes ( so that we do not have to manually run the tests)
+
+-- Syntax
+ 
+  # 6_30
+  # nodemon --exec 'mocha -R min'
+    + Any time a file in the project changes, nodemon will run the command 'mocha -R min'
+    + -R min : Condense down the test output & also clears out the output from previous run
+      
+  

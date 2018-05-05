@@ -1,0 +1,18 @@
+
+-- Mongoose
+
+# Is the ORM library for Mongo #S5-11
+# Is industry standard
+
+# Promise library in mongoose
+  - is 'mpromise'
+  - We can replace `mpromise` with other implementations as `mpromise` is deprecated
+    . Other implementations are,
+      bluebird
+      q
+      ES6 promise (recommended in the course) #6_26   
+
+-- Mocha
+
+# Is used to write test case for mongodb
+# Is the most populate java script testing framework #6-15

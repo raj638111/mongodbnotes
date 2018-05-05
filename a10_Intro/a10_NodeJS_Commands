@@ -1,0 +1,25 @@
+
+
+-- Check node version
+
+  node -v
+  v9.10.1
+
+-- Execute a javascript using server-side runtime #6_16
+
+  node test/test_helper.js
+
+-- Run test suite in a node project
+
+  npm run test #6_20
+
+  Note:
+    1.  Apart from the test script, any helper javascript code also gets executed 
+        ( example; test_helper.json in users project)
+   
+    2.  In order to run the test, we have to set mocha for the `test` script in package.json
+          Do not specify in single quote
+        "scripts": {
+          "test": "mocha"
+        }
+
