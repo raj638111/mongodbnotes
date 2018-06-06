@@ -1,0 +1,75 @@
+
+-- Create project directory
+
+  mkdir users # 6.14
+  cd users
+
+-- Create package.json file
+
+  # Is package manager for Node Javascript platform
+  # Create package.json which is used to manage dependencies
+  npm init 
+  
+  This utility will walk you through creating a package.json file.
+  It only covers the most common items, and tries to guess sensible defaults.
+  
+  See `npm help json` for definitive documentation on these fields
+  and exactly what they do.
+  
+  Use `npm install <pkg>` afterwards to install a package and
+  save it as a dependency in the package.json file.
+  
+  Press ^C at any time to quit.
+  package name: (users)
+  version: (1.0.0)
+  description:
+  entry point: (index.js)
+  test command:
+  git repository:
+  keywords:
+  author:
+  license: (ISC)
+  About to write to /Users/rgunasekaran/ws/mongodbnotes/a20_Project/users/package.json:
+  
+  {
+    "name": "users",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
+  
+  Is this ok? (yes) yes
+
+-- Add dependency to package.json
+
+  npm install --save mocha nodemon mongoose
+  
+  > fsevents@1.1.3 install /Users/rgunasekaran/ws/mongodbnotes/a20_Project/users/node_modules/fsevents
+  > node install
+  
+  [fsevents] Success: "/Users/rgunasekaran/ws/mongodbnotes/a20_Project/users/node_modules/fsevents/lib/binding/Release/node-v59-darwin-x64/fse.node" is installed via remote
+  
+  > nodemon@1.17.3 postinstall /Users/rgunasekaran/ws/mongodbnotes/a20_Project/users/node_modules/nodemon
+  > node -e "console.log('\u001b[32mLove nodemon? You can now support the project via the open collective:\u001b[22m\u001b[39m\n > \u001b[96m\u001b[1mhttps://opencollective.com/nodemon/donate\u001b[0m\n')" || exit 0
+  
+  Love nodemon? You can now support the project via the open collective:
+   > https://opencollective.com/nodemon/donate
+  
+  npm notice created a lockfile as package-lock.json. You should commit this file.
+  npm WARN users@1.0.0 No description
+  npm WARN users@1.0.0 No repository field.
+  
+  + nodemon@1.17.3
+  + mocha@5.0.5
+  + mongoose@5.0.12
+  added 398 packages in 12.321s
+
+
+
+

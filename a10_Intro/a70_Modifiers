@@ -1,0 +1,23 @@
+
+
++ Modifiers
+  - IB(I believe): Helps to modify a given query (example `findOne`) to get additional info
+  
++ Some modifiers are,
+  - populate()
+  - skip()  11_67_2_40
+  - limit()   
+
++ Example
+
+  it.only('Saves a relation b/w a user & blogpost', (done) => { //9_60
+    User.findOne({name: 'Joe'}) // Search Criteria
+      .populate('blogPosts')  // ** populate() is a modifier which retrieves value associated with the
+                              //    reference(Referrence values are not automatically loaded) 
+                              //    in property User.blogPosts // 9_61
+      .then((user) => {       // then() actually executes the query (`exec` is older version of JS)
+        console.log("user => " + user);
+        assert(user.blogPosts[0].title === 'My title');
+        done();
+      }); 
+  });

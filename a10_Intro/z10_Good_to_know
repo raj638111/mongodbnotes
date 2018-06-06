@@ -1,0 +1,7 @@
+
+
+  + `xit`
+    - In Mocha, A test can be made from `it` to `xit` in order to ignore that test 8_51_02_32
+      those tests that is made as xit reflects as `pending` when running `npm run test`
+  + `it.only`
+    - Can be used to run only that particular test 9_60_5_10

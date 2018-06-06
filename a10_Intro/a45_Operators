@@ -1,0 +1,9 @@
+
+  + Operator
+    - Are instruction we send to MongoDB to get it executed.//6-39, 6-40
+  + Some operators are,
+    - $inc // Is an update operator
+    - $in // Query operator 10_65_2_50
+  + Example: a30_update_test.js
+  
+  

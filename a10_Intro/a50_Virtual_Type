@@ -1,0 +1,9 @@
+
+-- 8_50
+
+  + A Virtual type do not get persisted over MongoDB
+  + Case where this is useful
+    - We have 2 field in our schema (Example posts & postCount)
+      In this case, we need to update postCount everytime we add new posts which
+      is not an elegant solution. In this case, postCount can be made a virtual type 8_50
+      A virtual type is stored in the server where mongoose code is running

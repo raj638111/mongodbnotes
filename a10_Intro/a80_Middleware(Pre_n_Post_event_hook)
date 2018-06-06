@@ -1,0 +1,10 @@
+
+
+  + Middleware
+    - Is a capability provide by Mongoose to add pre & post hooks for an event(ex: save, remove, etc...)
+      10_63_2_33
+    - Events that can be watched for 10_64_0_16
+      . init - Model initialization
+      . validate - When a record is validated
+      . save - When a record is saved
+      . remove - When a record is removed

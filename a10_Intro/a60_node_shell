@@ -1,0 +1,24 @@
+
+-- Example
+
+cd /Users/rgunasekaran/ws/mongodbnotes/a20_Project/users; # 8_52
+node  # This opens up node shell
+const User = require('./src/user');
+
+User
+undefined
+
+{ [Function: model]
+  hooks:
+   Kareem {
+     _pres: { save: [Array], remove: [Array] },
+     _posts: { init: [Array], save: [Array] } },
+     ...
+     
+joe = new User({});
+{ _id: 5af85b84d1c2090c6096c0d4, posts: [] }
+
+joe.postCount
+Hi
+undefined     
+     
